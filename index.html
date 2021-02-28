@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+    <title>rsschool-cv</title>
+</head>
+<body>
+    <nav class="header">
+        <ul class="links header__link-list ul-without-markers">
+            <li class="header__link-list__link"><a class="link header__link-list__current_link" href="#self-introduction">Home</a></li>
+            <li class="header__link-list__link"><a id="education-link" class="link header__link-list__other_link" href="#education">Education</a></li>
+            <li class="header__link-list__link"><a class="link header__link-list__other_link" href="#skills">Skills</a></li>
+            <li class="header__link-list__link"><a class="link header__link-list__other_link" href="#projects">Projects</a></li>
+            <li class="header__link-list__link"><a class="link header__link-list__other_link" href="#languages">Languages</a></li>
+        </ul>
+    </nav>
+    <header class="self-introduction" id="self-introduction">
+        <div class="container">
+            <div class="self-introduction__section">
+                <h1 class="self-introduction__section__title"> I'm Hanna Shatsko</h1>
+                <p class="self-introduction__section__description">
+                    I'm a Minsk based QA engineer providing effective software quality testing for web projects of all sizes around the globe, mainly US. Let's start scrolling and learn more about me.
+                </p>
+                <ul class="links main__link-list ul-without-markers">
+                    <li class="main__link-list__link">
+                        <a class="link main__link-list__other_link" aria-label="Instagram" href="https://www.instagram.com/anya.annia">
+                            <span class="social-network-image">
+                                <i class="fab fa-instagram"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="main__link-list__link">
+                        <a class="link main__link-list__other_link" aria-label="Skype" href="https://join.skype.com/invite/liKjy4KiEpmJ">
+                            <span class="social-network-image">
+                                <i class="fab fa-skype"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="main__link-list__link">
+                        <a class="link main__link-list__other_link" aria-label="Github" href="https://github.com/annia-anya">
+                            <span class="social-network-image">
+                                <i class="fab fa-github"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="main__link-list__link">
+                        <a class="link main__link-list__other_link" aria-label="Telegram" href="https://t.me/annia_anya">
+                            <span class="social-network-image">
+                                <i class="fab fa-telegram"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="aboutMe-wrapper">
+            <div class="container">
+                <div class="aboutMe">
+                    <div class="aboutMe__container">
+                        <div class="aboutMe__photo">
+                            <img class="profile-picture" src="./assets/annia-anya.jpg" alt="Hanna Shatsko Picture">
+                        </div>
+                        <div class="aboutMe__education">
+                            <h2 class="aboutMe__education__title" id="education">Education</h2>
+                            <ul class="links aboutMe__link-list">
+                                <li class="aboutMe__link-list__link"><h3>2014-2019 BSU, Faculty of Philology (Bachelor)</h3></li>
+                                <li class="aboutMe__link-list__link"><h3>2019 QATestLab EPAM Training Center</h3></li>
+                                <li class="aboutMe__link-list__link"><h3>2019-2021 BSU, Faculty of Philosophy and Social Science (Master of Psychology)</h3></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills-wrapper">
+            <div class="container">
+                <div class="skills">
+                    <div class="skills__container">
+                        <h2 class="skills__title" id="skills">Skills</h2>
+                        <div class="skills__rectangles-container">
+                            <ul class="ul-without-markers">
+                                <li>
+                                    <h3 class="skills__rectangles__title">Javascript (beginner level)</h3>
+                                    <div class="rectangle">
+                                        <div class="inner-rectangle" data-level="beginner"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h3 class="skills__rectangles__title">HTML5</h3>
+                                    <div class="rectangle">
+                                        <div class="inner-rectangle" data-level="medium"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h3 class="skills__rectangles__title">CSS3</h3>
+                                    <div class="rectangle">
+                                        <div class="inner-rectangle" data-level="medium"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h3 class="skills__rectangles__title">Java (skills related to automated testing)</h3>
+                                    <div class="rectangle">
+                                        <div class="inner-rectangle" data-level="intermediate"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h3 class="skills__rectangles__title">Functional, regression, API testing</h3>
+                                    <div class="rectangle">
+                                        <div class="inner-rectangle" data-level="upper-intermediate"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="projects-wrapper">
+            <div class="container">
+                <div class="projects">
+                    <div class="projects__container">
+                        <h2 class="projects__title" id="projects">Projects</h2>
+                        <ul class="ul-without-markers projects__link-list">
+                            <li class="projects__link-list__link">
+                                <a href="https://annia-anya-wildlife.netlify.com" target="_blank">
+                                    <img class="projects__link-list__image" src="./assets/wildlife.png" alt="Wildlife Project Image">
+                                    <div class="projects__link-list__description-container">
+                                        <h3>
+                                            Wildlife
+                                        </h3>
+                                        <h4>Used technologies:</h4>
+                                        <ul class="projects__link-list__technologies">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JS</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="projects__link-list__link">
+                                <a href="https://annia-anya.github.io/webdev" target="_blank">
+                                    <img class="projects__link-list__image" src="./assets/webdev.png" alt="Webdev Project Image">
+                                    <div class="projects__link-list__description-container">
+                                        <h3>
+                                            Webdev
+                                        </h3>
+                                        <h4>Used technologies:</h4>
+                                        <ul class="projects__link-list__technologies">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JS</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="projects__link-list__link">
+                                <a href="https://annia-anya.github.io/theYalow" target="_blank">
+                                    <img class="projects__link-list__image" src="./assets/theyalow.png" alt="The Yalow Project Image">
+                                    <div class="projects__link-list__description-container">
+                                        <h3>
+                                            The Yalow
+                                        </h3>
+                                        <h4>Used technologies:</h4>
+                                        <ul class="projects__link-list__technologies">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="languages-wrapper">
+            <div class="container">
+                <div class="languages">
+                    <div class="languages__container">
+                        <h2 class="languages__title" id="languages">Languages</h2>
+                        <ul class="languages__circles-container ul-without-markers">
+                            <li class="circle-wrapper">
+                                <h3 class="languages__circles__title">Russian</h3>
+                                <div class="circle">
+                                    <p class="inner-circle-text">native</p>
+                                </div>
+                            </li>
+                            <li class="circle-wrapper">
+                                <h3 class="languages__circles__title">English</h3>
+                                <div class="circle">
+                                    <p class="inner-circle-text">B1</p>
+                                </div>
+                            </li>
+                            <li class="circle-wrapper">
+                                <h3 class="languages__circles__title">German</h3>
+                                <div class="circle">
+                                    <p class="inner-circle-text">B1</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-wrapper">
+        <div class="container">
+            <div class="footer">
+                <a href="https://rs.school/">
+                    <span class="rs-school-logo-wrapper">
+                        <img class="rs-school-logo" src="./assets/rs_school_js.svg" alt="RS School Logo">
+                    </span>
+                </a>
+                <h3 class="footer__title">Contact Details:</h3>
+                <p class="footer__description">Hanna Shatsko;</p>
+                <p class="footer__description">Minsk, Belarus;</p>
+                <p class="footer__description">2021</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
