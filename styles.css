@@ -255,10 +255,8 @@ h4 {
 
 .rectangle {
     background-color: var(--main-dark-background-color);
-    /* width: 80%; */
     height: 42px;
     border-radius: 3px;
-    /* align-self: center; */
     transition: all .3s ease;
 }
 
@@ -269,22 +267,24 @@ h4 {
 .inner-rectangle {
     background-color: var(--main-pink-color);
     height: 42px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 
-.inner-rectangle1 {
+.inner-rectangle[data-level="beginner"] {
     width: 20%;
 }
-.inner-rectangle2 {
+
+.inner-rectangle[data-level="medium"] {
     width: 40%;
 }
-.inner-rectangle3 {
-    width: 40%;
-}
-.inner-rectangle4 {
+
+.inner-rectangle[data-level="intermediate"] {
     width: 60%;
 }
-.inner-rectangle5 {
-    width: 90%;
+
+.inner-rectangle[data-level="upper-intermediate"] {
+    width: 80%;
 }
 
 .projects-wrapper {
@@ -381,7 +381,7 @@ h4 {
 .footer-wrapper {
     background-image: url('./assets/background.jpeg');
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     height: 30px;
     position: relative;
