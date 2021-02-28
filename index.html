@@ -12,117 +12,219 @@
     <title>rsschool-cv</title>
 </head>
 <body>
-    <div class="container-image">
-        <header class="header">
-            <ul class="links header__link-list">
-                <li class="header__link-list__link"><a class="link header__link-list__current_link"href="">Home</a></li>
-                <li class="header__link-list__link"><a id="education-link"class="link header__link-list__other_link" href="#education">Education</a></li>
-                <li class="header__link-list__link"><a class="link header__link-list__other_link" href="#skills">Skills</a></li>
-                <li class="header__link-list__link"><a class="link header__link-list__other_link" href="#languages">Languages</a></li>
-                <li class="header__link-list__link"><a class="link header__link-list__other_link" href="#contact">Contact</a></li>
-            </ul>
-        </header>
-    <div class="container">
-        <main class="self-introduction">
+    <nav class="header">
+        <ul class="links header__link-list ul-without-markers">
+            <li class="header__link-list__link"><a class="link header__link-list__current_link"href="">Home</a></li>
+            <li class="header__link-list__link"><a id="education-link" class="link header__link-list__other_link" href="#education">Education</a></li>
+            <li class="header__link-list__link"><a class="link header__link-list__other_link" href="#skills">Skills</a></li>
+            <li class="header__link-list__link"><a class="link header__link-list__other_link" href="#projects">Projects</a></li>
+            <li class="header__link-list__link"><a class="link header__link-list__other_link" href="#languages">Languages</a></li>
+        </ul>
+    </nav>
+    <header class="self-introduction">
+        <div class="container">
             <div class="self-introduction__section">
                 <h1 class="self-introduction__section__title"> I'm Hanna Shatsko</h1>
-                <p class="self-introduction__section__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <ul class="links main__link-list">
-                    <li class="main__link-list__link"><a class="link main__link-list__other_link" href="https://www.instagram.com/anya.annia"><img class="social-network-image instagram" src="./assets/instagram-square-brands.svg" alt="inst"></a></li>
-                    <li class="main__link-list__link"><a class="link main__link-list__other_link" href="https://join.skype.com/invite/liKjy4KiEpmJ"><img class="social-network-image skype" src="./assets/skype-brands.svg" alt="skype"></a></li>
-                    <li class="main__link-list__link"><a class="link main__link-list__other_link" href="https://github.com/annia-anya"><img class="social-network-image github" src="./assets/github-brands.svg" alt="github"></a></li>
-                    <li class="main__link-list__link"><a class="link main__link-list__other_link" href="https://t.me/annia_anya"><img class=" social-network-image telegram-plane" src="./assets/telegram-plane-brands.svg" alt="telegram"></a></li>
+                <p class="self-introduction__section__description">
+                    I'm a Minsk based QA engineer providing effective software quality testing for web projects of all sizes around the globe, mainly US. Let's start scrolling and learn more about me.
+                </p>
+                <ul class="links main__link-list ul-without-markers">
+                    <li class="main__link-list__link">
+                        <a class="link main__link-list__other_link" aria-label="Instagram" href="https://www.instagram.com/anya.annia">
+                            <span class="social-network-image">
+                                <i class="fab fa-instagram"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="main__link-list__link">
+                        <a class="link main__link-list__other_link" aria-label="Skype" href="https://join.skype.com/invite/liKjy4KiEpmJ">
+                            <span class="social-network-image">
+                                <i class="fab fa-skype"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="main__link-list__link">
+                        <a class="link main__link-list__other_link" aria-label="Github" href="https://github.com/annia-anya">
+                            <span class="social-network-image">
+                                <i class="fab fa-github"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="main__link-list__link">
+                        <a class="link main__link-list__other_link" aria-label="Telegram" href="https://t.me/annia_anya">
+                            <span class="social-network-image">
+                                <i class="fab fa-telegram"></i>
+                            </span>
+                        </a>
+                    </li>
                 </ul>
             </div>
-        </main>
-    </div>
-        <div class="aboutMe-wrapper">
+        </div>
+    </header>
+    <main>
+        <section class="aboutMe-wrapper">
             <div class="container">
-                <section class="aboutMe">
+                <div class="aboutMe">
                     <div class="aboutMe__container">
                         <div class="aboutMe__photo">
-                            <img class="profile-picture" src="./assets/user-alt-solid.svg" alt="profile-picture">
+                            <img class="profile-picture" src="./assets/annia-anya.jpg" alt="Hanna Shatsko Picture">
                         </div>
-                    <div class="aboutMe__education">
-                        <h2 class="aboutMe__education__title" id="education">Education</h2>
-                        <ul class="links aboutMe__link-list">
-                            <li class="aboutMe__link-list__link"><h3>2014-2019 BSU, Faculty of Philology (Bachelor)</h3></li>
-                            <li class="aboutMe__link-list__centarl-link"><h3>2019 QATestLab EPAM Training Center</h3></li>
-                            <li class="aboutMe__link-list__link"><h3>2019-2021 BSU, Faculty of Philosophy and Social Science (Master of Psychology)</h3></li>
-                        </ul>
+                        <div class="aboutMe__education">
+                            <h2 class="aboutMe__education__title" id="education">Education</h2>
+                            <ul class="links aboutMe__link-list">
+                                <li class="aboutMe__link-list__link"><h3>2014-2019 BSU, Faculty of Philology (Bachelor)</h3></li>
+                                <li class="aboutMe__link-list__link"><h3>2019 QATestLab EPAM Training Center</h3></li>
+                                <li class="aboutMe__link-list__link"><h3>2019-2021 BSU, Faculty of Philosophy and Social Science (Master of Psychology)</h3></li>
+                            </ul>
+                        </div>
                     </div>
-                    </div>
-                </section>
+                </div>
             </div>
-        </div>
-    <div class="skills-wrapper">
-        <div class="container">
-            <section class="skills">
-                <div class="skills__container">
+        </section>
+        <section class="skills-wrapper">
+            <div class="container">
+                <div class="skills">
+                    <div class="skills__container">
                         <h2 class="skills__title" id="skills">Skills</h2>
                         <div class="skills__rectangles-container">
-                                <h3 class="skills__rectangles__title">Javascript (beginner level)</h3>
-                                <div class="rectangle">
-                                    <div class="inner-rectangle inner-rectangle1"></div>
-                                </div>
-                                <h3 class="skills__rectangles__title">HTML5</h3>
-                                <div class="rectangle">
-                                    <div class="inner-rectangle inner-rectangle2"></div>
-                                </div>
-                                <h3 class="skills__rectangles__title">CSS3</h3>
-                                <div class="rectangle">
-                                    <div class="inner-rectangle inner-rectangle3"></div>
-                                </div>
-                                <h3 class="skills__rectangles__title">Java (skills related to automated testing)</h3>
-                                <div class="rectangle">
-                                    <div class="inner-rectangle inner-rectangle4"></div>
-                                </div>
-                                <h3 class="skills__rectangles__title">Functional, regression, API testing</h3>
-                                <div class="rectangle">
-                                    <div class="inner-rectangle inner-rectangle5"></div>
-                                </div>
+                            <ul class="ul-without-markers">
+                                <li>
+                                    <h3 class="skills__rectangles__title">Javascript (beginner level)</h3>
+                                    <div class="rectangle">
+                                        <div class="inner-rectangle inner-rectangle1"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h3 class="skills__rectangles__title">HTML5</h3>
+                                    <div class="rectangle">
+                                        <div class="inner-rectangle inner-rectangle2"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h3 class="skills__rectangles__title">CSS3</h3>
+                                    <div class="rectangle">
+                                        <div class="inner-rectangle inner-rectangle3"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h3 class="skills__rectangles__title">Java (skills related to automated testing)</h3>
+                                    <div class="rectangle">
+                                        <div class="inner-rectangle inner-rectangle4"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h3 class="skills__rectangles__title">Functional, regression, API testing</h3>
+                                    <div class="rectangle">
+                                        <div class="inner-rectangle inner-rectangle5"></div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
+                    </div>
                 </div>
-            </section>
-        </div>
-    </div> 
-    <div class="languages-wrapper">
-        <div class="container">
-            <section class="languages">
-                <div class="languages__container">
+            </div>
+        </section> 
+        <section class="projects-wrapper">
+            <div class="container">
+                <div class="projects">
+                    <div class="projects__container">
+                        <h2 class="projects__title" id="projects">Projects</h2>
+                        <ul class="ul-without-markers projects__link-list">
+                            <li class="projects__link-list__link">
+                                <a href="https://annia-anya-wildlife.netlify.com" target="_blank">
+                                    <img class="projects__link-list__image" src="./assets/wildlife.png" alt="Wildlife Project Image">
+                                    <div class="projects__link-list__description-container">
+                                        <h3>
+                                            Wildlife
+                                        </h3>
+                                        <h4>Used technologies:</h4>
+                                        <ul class="projects__link-list__technologies">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JS</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="projects__link-list__link">
+                                <a href="https://annia-anya.github.io/webdev" target="_blank">
+                                    <img class="projects__link-list__image" src="./assets/webdev.png" alt="Webdev Project Image">
+                                    <div class="projects__link-list__description-container">
+                                        <h3>
+                                            Webdev
+                                        </h3>
+                                        <h4>Used technologies:</h4>
+                                        <ul class="projects__link-list__technologies">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JS</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="projects__link-list__link">
+                                <a href="https://annia-anya.github.io/theYalow" target="_blank">
+                                    <img class="projects__link-list__image" src="./assets/theyalow.png" alt="The Yalow Project Image">
+                                    <div class="projects__link-list__description-container">
+                                        <h3>
+                                            The Yalow
+                                        </h3>
+                                        <h4>Used technologies:</h4>
+                                        <ul class="projects__link-list__technologies">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="languages-wrapper">
+            <div class="container">
+                <div class="languages">
+                    <div class="languages__container">
                         <h2 class="languages__title" id="languages">Languages</h2>
-                        <div class="languages__circles-container">
-                            <div class="circle-wrapper">
+                        <ul class="languages__circles-container ul-without-markers">
+                            <li class="circle-wrapper">
                                 <h3 class="languages__circles__title">Russian</h3>
                                 <div class="circle">
-                                    <div class="inner-circle-number"><p class="inner-circle-text">native</p></div>
+                                    <p class="inner-circle-text">native</p>
                                 </div>
-                            </div>
-                            <div class="circle-wrapper">
+                            </li>
+                            <li class="circle-wrapper">
                                 <h3 class="languages__circles__title">English</h3>
                                 <div class="circle">
-                                    <div class="inner-circle-number"><p class="inner-circle-text">B1</p></div>
+                                    <p class="inner-circle-text">B1</p>
                                 </div>
-                            </div>
-                            <div class="circle-wrapper">
+                            </li>
+                            <li class="circle-wrapper">
                                 <h3 class="languages__circles__title">German</h3>
                                 <div class="circle">
-                                    <div class="inner-circle-number"><p class="inner-circle-text">B1</p></div>
+                                    <p class="inner-circle-text">B1</p>
                                 </div>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </section>
-        </div>
-    </div>
+            </div>
+        </section>
+    </main>
     <footer class="footer-wrapper">
         <div class="container">
-            <section class="footer">
-                    <h3 class="footer__title" id="contacts">Contact Details:</h3>
-                    <p class="footer__description">Hanna Shatsko;</p>
-                    <p class="footer__description">Minsk, Belarus;</p>
-                    <p class="footer__description">2021</p>
-            </section>
+            <div class="footer">
+                <a href="https://rs.school/">
+                    <span class="rs-school-logo-wrapper">
+                        <img class="rs-school-logo" src="./assets/rs_school_js.svg" alt="RS School Logo">
+                    </span>
+                </a>
+                <h3 class="footer__title">Contact Details:</h3>
+                <p class="footer__description">Hanna Shatsko;</p>
+                <p class="footer__description">Minsk, Belarus;</p>
+                <p class="footer__description">2021</p>
+            </div>
         </div>
     </footer>
 </body>
